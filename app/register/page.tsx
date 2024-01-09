@@ -29,7 +29,7 @@ export default function Login() {
           </p>
         </div>
         <Form action={register}>
-          <SubmitButton>Sign Up</SubmitButton>
+          <SubmitButton >Sign Up</SubmitButton>
           <p className="text-center text-sm text-gray-600">
             {'Already have an account? '}
             <Link href="/login" className="font-semibold text-gray-800">
